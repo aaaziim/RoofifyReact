@@ -1,8 +1,9 @@
+import HeroSlider from "../../HeroSlider/HeroSlider";
 
 const Home = () => {
     return (
         <div>
-            Home
+            <HeroSlider></HeroSlider>
         </div>
     );
 };
