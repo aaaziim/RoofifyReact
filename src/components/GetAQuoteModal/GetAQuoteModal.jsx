@@ -12,7 +12,7 @@ const GetAQuoteModal = () => {
     </form>
     <section id="contact" className="relative w-full rounded-xl bg-black text-red-500 my-4">
       <h1 className="text-4xl p-4 font-bold tracking-wide">
-        Contact
+        Get A Quote
       </h1>
      
 
@@ -22,7 +22,7 @@ const GetAQuoteModal = () => {
         {/* Contact Me */}
         <form action="#" className="w-full border border-red-500 p-6 bg-gray-900 rounded-xl">
           <h2 className="text-2xl pb-3 font-semibold">
-            Send Message
+            Send Your Query
           </h2>
           <div>
             <div className="flex flex-col mb-3">
