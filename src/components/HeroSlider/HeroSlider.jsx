@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
-import RoofingMaintanance from "./../../assets/images/roofingmaintanance.jpeg"
+ 
 const HeroSlider = () => {
     return (
         <>
-      <div className="carousel min-h-[500px] w-full rounded-2xl my-6 ">
+<div className="carousel min-h-[500px] w-full rounded-2xl my-6 ">
   <div id="slide1" className="carousel-item relative w-full">
    
   <div
   className="hero"
   style={{
-    backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+    backgroundImage: "url(https://raw.githubusercontent.com/aaaziim/RoofifyReact/refs/heads/main/src/assets/roof-pattern_1203-3266.jpg)",
   }}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-neutral-content text-center">
@@ -37,7 +37,7 @@ const HeroSlider = () => {
   <div
   className="hero "
   style={{
-    backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+    backgroundImage: "url(https://raw.githubusercontent.com/aaaziim/RoofifyReact/refs/heads/main/src/assets/IMG_5791-2-scaled.jpg)",
   }}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-neutral-content text-center">
@@ -63,9 +63,9 @@ const HeroSlider = () => {
   </div>
   <div id="slide3" className="carousel-item relative w-full">
   <div
-  className="hero m "
+  className="hero "
   style={{
-    backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+    backgroundImage: "url(https://raw.githubusercontent.com/aaaziim/RoofifyReact/refs/heads/main/src/assets/photo-1633759593085-1eaeb724fc88.jpeg)",
   }}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-neutral-content text-center">
@@ -91,9 +91,9 @@ const HeroSlider = () => {
   </div>
   <div id="slide4" className="carousel-item relative w-full">
   <div
-  className="hero m "
+  className="hero "
   style={{
-    backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+    backgroundImage: "url(https://raw.githubusercontent.com/aaaziim/RoofifyReact/refs/heads/main/src/assets/Roof-repair-in-Florida-1200x600.webp)",
   }}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-neutral-content text-center">
@@ -117,6 +117,23 @@ const HeroSlider = () => {
       <a href="#slide1" className="btn btn-circle">❯</a>
     </div>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 </div>
       </>
     );
