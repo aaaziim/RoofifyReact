@@ -55,7 +55,30 @@ const NavBar = () => {
            {<NavItems></NavItems>}
           </ul>
         </div>
+        <Link to="/">
+
+<span>
+<FancyText className="text-3xl font-bold"
+      gradient={{ from: '#F858E0', to: '#77156C', type: 'linear' }}
+      animateTo={{ from: '#6DEDD0', to: '#7AE23A' }}
+      animateDuration={2000}
+    >
+      Roofify
+    </FancyText>
+</span>
+<span>
+    
+<FancyText className="text-3xl font-bold"
+      gradient={{ from: '#F858E0', to: '#77156C', type: 'linear' }}
+      animateTo={{ from: '#6DEDD0', to: '#7AE23A' }}
+      animateDuration={2000}
+    >
+      React
+    </FancyText>
+</span>
         
+
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
