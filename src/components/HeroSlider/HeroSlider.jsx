@@ -1,4 +1,5 @@
-
+import { Link } from "react-router-dom";
+import RoofingMaintanance from "./../../assets/images/roofingmaintanance.jpeg"
 const HeroSlider = () => {
     return (
         <>
@@ -6,19 +7,24 @@ const HeroSlider = () => {
   <div id="slide1" className="carousel-item relative w-full">
    
   <div
-  className="hero m "
+  className="hero"
   style={{
     backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
   }}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+    <h1 className="mb-5 text-5xl font-bold">RoofifyReact</h1>
       <p className="mb-5">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      Your Go To Leaders in Commercial Roofing
       </p>
-      <button className="btn btn-primary">Get Started</button>
+      
+      <Link to="/services">     <button className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+    <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+    <span className="relative px-6 py-3 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
+        <span className="relative text-white">Our Services</span>
+    </span>
+</button> </Link>
     </div>
   </div>
 </div>
@@ -29,19 +35,24 @@ const HeroSlider = () => {
   </div>
   <div id="slide2" className="carousel-item relative w-full">
   <div
-  className="hero m "
+  className="hero "
   style={{
     backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
   }}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+      <h1 className="mb-5 text-5xl font-bold">Roof Maintenance</h1>
       <p className="mb-5">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      A proactive maintenance plan can help you stay on top of your repairs, protect your roof’s warranty, AND extend the life of your roof!
       </p>
-      <button className="btn btn-primary">Get Started</button>
+      
+      <Link to="/services">     <button className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+    <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+    <span className="relative px-6 py-3 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
+        <span className="relative text-white">Our Services</span>
+    </span>
+</button> </Link>
     </div>
   </div>
 </div>
@@ -59,12 +70,17 @@ const HeroSlider = () => {
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+    <h1 className="mb-5 text-5xl font-bold">Roof Replacement</h1>
       <p className="mb-5">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      While it is often possible to repair damage without replacement , there comes the point in every roof’s lifespan when a full replacement makes more sense than endless repairs.
       </p>
-      <button className="btn btn-primary">Get Started</button>
+      
+      <Link to="/services">     <button className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+    <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+    <span className="relative px-6 py-3 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
+        <span className="relative text-white">Our Services</span>
+    </span>
+</button> </Link>
     </div>
   </div>
 </div>
@@ -82,12 +98,17 @@ const HeroSlider = () => {
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-neutral-content text-center">
     <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+    <h1 className="mb-5 text-5xl font-bold">Roof Repairs</h1>
       <p className="mb-5">
-        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
-        quasi. In deleniti eaque aut repudiandae et a id nisi.
+      RoofifyReact provides a reliable, high-quality, and affordable commercial roof repair service in Charleston and the surrounding region.
       </p>
-      <button className="btn btn-primary">Get Started</button>
+      
+      <Link to="/services">     <button className="relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md">
+    <span className="w-full h-full bg-gradient-to-br from-[#ff8a05] via-[#ff5478] to-[#ff00c6] group-hover:from-[#ff00c6] group-hover:via-[#ff5478] group-hover:to-[#ff8a05] absolute"></span>
+    <span className="relative px-6 py-3 transition-all ease-out bg-gray-900 rounded-md group-hover:bg-opacity-0 duration-400">
+        <span className="relative text-white">Our Services</span>
+    </span>
+</button> </Link>
     </div>
   </div>
 </div>
